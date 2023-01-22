@@ -112,8 +112,25 @@ h3 {
     display: flex;
     flex: 1;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-column-container {
     width: 100%;
-    justify-content: space-between;
+  }
+
+  .img-container {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+
+  #profile-img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
   }
 
   .page-content {
@@ -121,12 +138,6 @@ h3 {
     flex: 1;
     flex-direction: column;
   }
-
-  #image-container {
-    width: 60%;
-    align-self: center;
-  }
-
 
   #personal-data {
     width: 100%;
