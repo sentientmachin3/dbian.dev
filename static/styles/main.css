@@ -29,7 +29,6 @@ h3 {
 }
 
 a {
-  padding: 10px 8px;
   text-decoration: none;
 }
 
@@ -109,7 +108,7 @@ ul {
   padding: 15px 10px;
 }
 
-.disclaimer {
+.padded-italics {
   font-style: italic;
   padding: 30px 20px;
 }
