@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
-
-* {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap") * {
   box-sizing: border-box;
 }
 
@@ -111,6 +109,13 @@ ul {
 .padded-italics {
   font-style: italic;
   padding: 30px 20px;
+}
+
+code {
+  font-size: 18px;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media only screen and (max-width: 1200px) {
