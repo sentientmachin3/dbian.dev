@@ -20,11 +20,14 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="top">
+    <div class="sidebar-container">
+      <div class="sidebar">
         <h1>D. Bianchi</h1>
         <h3>Software Developer</h3>
         <div class="header">
+          <div class="img-container">
+            <img id="profile-img" src="static/images/profile.jpg" />
+          </div>
           <div class="header-icons">
             <a href="https://github.com/sentientmachin3" target="_blank">
               <img src="static/images/github.svg" />
@@ -44,134 +47,108 @@
               >Download my CV</a
             >
           </div>
-        </div>
-      </div>
-      <div class="page-content">
-        <div id="profile">
-          <div class="left-column-container">
-            <div class="img-container">
-              <img id="profile-img" src="static/images/profile.jpg" />
-            </div>
-            <div class="data-section">
-              <p>
-                Age 28, currently in Verona, Italy.<br />
-                Bachelor's degree in computer science @ University of Verona,
-                Italy
-              </p>
-            </div>
-            <div class="quotes">
-              <p id="quotes-title">Favourite quotes:</p>
-              <div class="quote">
-                "We are the Borg. Lower your shields and surrender your ships.
-                We will add your biological and technological distinctiveness to
-                our own. Your culture will adapt to service us. Resistance is
-                futile."
-              </div>
-            </div>
+          <div class="data-section">
+            <p>
+              Age 28, currently in Verona, Italy.<br />
+              Bachelor's degree in computer science @ University of Verona,
+              Italy
+            </p>
           </div>
-          <div class="spacer"></div>
-          <div id="personal-data">
-            <div class="data-section">
-              <p class="section-title">Professional Experiences</p>
-              <ul>
-                <li>Nov. 2023 - now: software developer @ Mirai SRL</li>
-                <li>
-                  Sep. 2022 - Nov. 2023: software developer @ Bit Mobility SRL
-                </li>
-                <li>Nov. 2020 - Aug. 2022: software developer @ Iotinga SRL</li>
-              </ul>
-            </div>
-            <div class="data-section">
-              <p class="section-title">Skills</p>
-              <ul>
-                <li>
-                  Backend development via GraphQL or REST frameworks like
-                  ExpressJS
-                </li>
-                <li>
-                  Relational databases (Postgres, MySQL, MariaDB) and
-                  non-relational databases (AWS DynamoDB, CouchDB, Redis)
-                </li>
-                <li>Mobile cross-platform applications with React Native</li>
-                <li>
-                  Front-end web development, in ReactJS, Flask and Angular
-                </li>
-                <li>AWS tools and services</li>
-              </ul>
-            </div>
-            <div class="data-section">
-              <p class="section-title">Languages</p>
-              <ul>
-                <li>Typescript/Javascript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>Lua</li>
-                <li>Currently learning Go and Rust</li>
-              </ul>
-            </div>
-            <div class="data-section">
-              <p class="section-title">Interests and passions</p>
-              <ul>
-                <li>Everything Linux related</li>
-                <li>Star Trek saga</li>
-                <li>Lord of the Rings</li>
-                <li>Mountain trekking</li>
-              </ul>
-            </div>
-            <div id="data-section">
-              <p class="section-title">Side Projects</p>
-              Here are my biggest side projects, more on
-              <a href="https://github.com/sentientmachin3">Github</a>
-              <ul>
-                <li>
-                  <a
-                    href="https://github.com/sentientmachin3/dispense-info-univr"
-                    >dispense-info-univr</a
-                  >: a collection of essays and summaries I wrote as a student.
-                  Me and a good friend ended up writing a lot of LaTex stuff,
-                  and we decided to publish it to be free to download. Available
-                  only in italian.
-                </li>
-                <li>
-                  <a href="https://github.com/sentientmachin3/git-guide"
-                    >git-guide</a
-                  >: a guide for git I wrote when learning it. Only in italian,
-                  but currently I'm working on
-                  <a href="git-guide/">version 2</a>, in english.
-                </li>
-                <li>
-                  <a href="https://github.com/sentientmachin3/gwt-switcher"
-                    >gwt-switcher</a
-                  >: a simple tool written in Go to provide a quick system to
-                  move across all the git worktrees of multiple repos.
-                  Integrates with <code>tmux</code>
-                </li>
-                <li>
-                  <a href="https://github.com/sentientmachin3/gwts-rs"
-                    >gwts-rs</a
-                  >: a rewrite of <code>gwt-switcher</code> but in Rust, for fun
-                  and knowledge
-                </li>
-                <li>
-                  <a href="https://github.com/sentientmachin3/bufswitch.nvim"
-                    >bufswitch.nvim</a
-                  >: plugin for Neovim to navigate across open buffers
-                </li>
-                <li>
-                  <a href="https://github.com/sentientmachin3/dotfiles"
-                    >dotfiles</a
-                  >: configuration files to run my current development
-                  environment, based on Sway, a tiling window manager for
-                  Wayland
-                </li>
-              </ul>
+          <div class="quotes">
+            <p id="quotes-title">Favourite quotes:</p>
+            <div class="quote">
+              "We are the Borg. Lower your shields and surrender your ships. We
+              will add your biological and technological distinctiveness to our
+              own. Your culture will adapt to service us. Resistance is futile."
             </div>
           </div>
         </div>
       </div>
-      <div class="padded-italics">
-        Do you think this website sucks? I agree, but making cool looking
-        websites is not my thing, ok?
+    </div>
+    <div class="content">
+      <div class="data-section">
+        <p class="section-title">Professional Experiences</p>
+        <ul>
+          <li>Nov. 2023 - now: software developer @ Mirai SRL</li>
+          <li>Sep. 2022 - Nov. 2023: software developer @ Bit Mobility SRL</li>
+          <li>Nov. 2020 - Aug. 2022: software developer @ Iotinga SRL</li>
+        </ul>
+      </div>
+      <div class="data-section">
+        <p class="section-title">Skills</p>
+        <ul>
+          <li>
+            Backend development via GraphQL or REST frameworks like ExpressJS
+          </li>
+          <li>
+            Relational databases (Postgres, MySQL, MariaDB) and non-relational
+            databases (AWS DynamoDB, CouchDB, Redis)
+          </li>
+          <li>Mobile cross-platform applications with React Native</li>
+          <li>Front-end web development, in ReactJS, Flask and Angular</li>
+          <li>AWS tools and services</li>
+        </ul>
+      </div>
+      <div class="data-section">
+        <p class="section-title">Languages</p>
+        <ul>
+          <li>Typescript/Javascript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Lua</li>
+          <li>Currently learning Go and Rust</li>
+        </ul>
+      </div>
+      <div class="data-section">
+        <p class="section-title">Interests and passions</p>
+        <ul>
+          <li>Everything Linux related</li>
+          <li>Star Trek saga</li>
+          <li>Lord of the Rings</li>
+          <li>Mountain trekking</li>
+        </ul>
+      </div>
+      <div id="data-section">
+        <p class="section-title">Side Projects</p>
+        Here are my biggest side projects, more on
+        <a href="https://github.com/sentientmachin3">Github</a>
+        <ul>
+          <li>
+            <a href="https://github.com/sentientmachin3/dispense-info-univr"
+              >dispense-info-univr</a
+            >: a collection of essays and summaries I wrote as a student. Me and
+            a good friend ended up writing a lot of LaTex stuff, and we decided
+            to publish it to be free to download. Available only in italian.
+          </li>
+          <li>
+            <a href="https://github.com/sentientmachin3/git-guide">git-guide</a
+            >: a guide for git I wrote when learning it. Only in italian, but
+            currently I'm working on <a href="git-guide/">version 2</a>, in
+            english.
+          </li>
+          <li>
+            <a href="https://github.com/sentientmachin3/gwt-switcher"
+              >gwt-switcher</a
+            >: a simple tool written in Go to provide a quick system to move
+            across all the git worktrees of multiple repos. Integrates with
+            <code>tmux</code>
+          </li>
+          <li>
+            <a href="https://github.com/sentientmachin3/gwts-rs">gwts-rs</a>: a
+            rewrite of <code>gwt-switcher</code> but in Rust, for fun and
+            knowledge
+          </li>
+          <li>
+            <a href="https://github.com/sentientmachin3/bufswitch.nvim"
+              >bufswitch.nvim</a
+            >: plugin for Neovim to navigate across open buffers
+          </li>
+          <li>
+            <a href="https://github.com/sentientmachin3/dotfiles">dotfiles</a>:
+            configuration files to run my current development environment, based
+            on Sway, a tiling window manager for Wayland
+          </li>
+        </ul>
       </div>
     </div>
   </body>
