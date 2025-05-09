@@ -1,0 +1,12 @@
+name: "envmon"
+services:
+  web:
+    build:
+      context: web
+      dockerfile: Dockerfile.prod
+    ports:
+      - 0.0.0.0:3000:3000
+    container_name: envmon-web
+    volumes:
+      - ./articles:/app/articles
+      - ./public:/app/public/
