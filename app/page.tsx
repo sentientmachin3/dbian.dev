@@ -1,10 +1,9 @@
-import { MainContent, Profile } from "../components"
+import { MainContent } from "../components"
 
 export default function Home() {
     return (
-        <div className="flex">
-            <Profile />
+        <>
             <MainContent />
-        </div>
+        </>
     )
 }
