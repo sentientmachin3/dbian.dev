@@ -25,9 +25,10 @@ export const workExperiences: WorkExperience[] = [
 export const skills: string[] = [
     "Backend development via GraphQL or REST frameworks like ExpressJS",
     "Relational databases (Postgres, MySQL, MariaDB) and non-relational databases (AWS DynamoDB, CouchDB, Redis)",
-    "Mobile cross-platform applications with React Native",
-    "Front-end web development, in ReactJS, Flask and Angular",
+    "IoT devices integrations via MQTT",
     "Integrations with modern payment systems (Stripe, Satispay, Paypal)",
+    "Front-end web development, in ReactJS, Flask and Angular",
+    "Mobile cross-platform applications with React Native",
     "AWS tools and services",
 ]
 

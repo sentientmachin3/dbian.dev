@@ -1,6 +1,5 @@
 import type { Metadata } from "next"
 import "./globals.css"
-import { Profile } from "../components"
 import { JetBrains_Mono } from "next/font/google"
 
 const font = JetBrains_Mono({
@@ -33,14 +32,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className={font.className}>
-            <body className={"antialiased"}>
-                <div className={"flex flex-row h-full"}>
-                    <div className="h-full w-[25%] bg-main/20">
-                        <Profile />
-                    </div>
-                    {children}
-                </div>
-            </body>
+            <body className={"antialiased"}>{children}</body>
         </html>
     )
 }

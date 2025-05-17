@@ -42,7 +42,9 @@ export function Profile() {
                     </a>
                 </div>
                 <div className="pt-2">
-                    <a href={"/cv.pdf"}>{"Download my CV"}</a>
+                    <a className="underline" href={"/cv.pdf"}>
+                        {"Download my CV"}
+                    </a>
                 </div>
                 <div
                     className={"flex flex-col text-center py-12 gap-2 text-md"}
@@ -54,8 +56,8 @@ export function Profile() {
                         }
                     </div>
                     <div>
-                        Nerd, guitar player, Linux and OSS geek, LOTR and Star
-                        Trek fan.
+                        Science nerd, guitar player, Linux and OSS geek, LOTR
+                        and Star Trek fan.
                     </div>
                 </div>
             </div>
