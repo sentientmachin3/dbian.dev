@@ -58,11 +58,6 @@ export function Profile() {
                         Trek fan.
                     </div>
                 </div>
-                <div>
-                    <div className={"text-center italic"}>
-                        {"Resistence is futile"}
-                    </div>
-                </div>
             </div>
         </div>
     )

@@ -38,15 +38,3 @@ lint: ## Run linter on the codebase
 rebuild:
 	docker compose down && docker compose build && docker compose up -d
 
-# .PHONY: prod-build
-# prod-build: ## Builds projects for production
-# 	cd provider && ./build.sh && cd ..
-# 	cd web && ./build.sh && cd ..
-# 	idf.py -C sensing app
-
-# .PHONY: prod-compose
-# prod-compose: ## Build compose project for production
-# 	docker compose -f docker-compose.prod.yml build
-	
-
-

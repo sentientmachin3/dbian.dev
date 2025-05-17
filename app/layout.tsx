@@ -1,6 +1,12 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import { Profile } from "../components"
+import { JetBrains_Mono } from "next/font/google"
+
+const font = JetBrains_Mono({
+    subsets: ["latin"],
+    weight: "400",
+})
 
 export const metadata: Metadata = {
     title: "dbian - Home",
@@ -26,12 +32,14 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="en">
-            <body className={`antialiased`}>
-                <div className="h-full w-[25%] bg-main/20">
-                    <Profile />
+        <html lang="en" className={font.className}>
+            <body className={"antialiased"}>
+                <div className={"flex flex-row h-full"}>
+                    <div className="h-full w-[25%] bg-main/20">
+                        <Profile />
+                    </div>
+                    {children}
                 </div>
-                {children}
             </body>
         </html>
     )

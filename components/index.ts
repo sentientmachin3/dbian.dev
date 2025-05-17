@@ -1,2 +1,4 @@
 export * from "./Profile"
-export * from "./MainContent"
+export * from "./SectionTitle"
+export * from "./WorkHistory"
+export * from "./ListSection"

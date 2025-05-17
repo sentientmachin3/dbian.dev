@@ -2,16 +2,21 @@
 
 @theme inline {
     --color-main: #2f4f4f;
-    --color-text: #cecece
+    --color-text: #cecece;
 }
 
 html,
 body {
     background-color: rgba(var(--color-main), 10%);
     height: 100%;
+    font-size: 18px;
 }
 
 body {
     position: relative;
     min-height: 100%;
+}
+
+ul {
+    list-style: inside;
 }
