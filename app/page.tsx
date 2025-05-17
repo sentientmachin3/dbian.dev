@@ -1,37 +1,22 @@
 "use client"
 
-import { useEffect, useState } from "react"
 import { ListSection, Profile, WorkHistory } from "../components"
 import { languages, skills, workExperiences } from "./data"
 
 export default function Home() {
-    const [isMobile, setIsMobile] = useState(true)
-
-    useEffect(() => {
-        const handleResize = () => {
-            if (window !== undefined) {
-                setIsMobile(window.innerWidth < 1200)
-            }
-        }
-        window.addEventListener("resize", handleResize)
-        return () => {
-            window.removeEventListener("resize", handleResize)
-        }
-    }, [])
-
     return (
         <>
-            <div
-                className={`flex ${isMobile ? "flex-col" : "flex-row h-full"}`}
-            >
-                <div
-                    className={`${isMobile ? "w-full" : "h-full w-[25%]"}  bg-main/20`}
-                >
+            <div className={"flex flex-col"}>
+                <div className={"w-full bg-main/20"}>
                     <Profile />
                 </div>
                 <div>
-                    <div className={"flex flex-col px-12 pt-20"}>
-                        <div className={"flex flex-col gap-4"}>
+                    <div className={"flex flex-col pt-20 items-center"}>
+                        <div
+                            className={
+                                "flex flex-col max-w-[60%] justify-center gap-4"
+                            }
+                        >
                             <WorkHistory experiences={workExperiences} />
                             <ListSection
                                 title={"Skills and technologies"}
@@ -42,7 +27,7 @@ export default function Home() {
                                 elements={languages}
                             />
                         </div>
-                        <div className={"pt-4"}>
+                        <div className={"flex flex-col text-center py-4"}>
                             <div>
                                 Check out my side projects on{" "}
                                 <a

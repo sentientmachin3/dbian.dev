@@ -11,8 +11,8 @@ export function Profile() {
                 <div className="flex w-full py-6 justify-center">
                     <Image
                         src={"/profile.png"}
-                        width={450}
-                        height={450}
+                        width={300}
+                        height={300}
                         alt={"profile"}
                         className={"rounded-full"}
                     />
