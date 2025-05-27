@@ -42,7 +42,7 @@ export function Profile() {
                     </a>
                 </div>
                 <div className="pt-2">
-                    <a className="underline" href={"/cv.pdf"}>
+                    <a className="underline" href={"/cv.pdf"} target="_blank">
                         {"Download my CV"}
                     </a>
                 </div>

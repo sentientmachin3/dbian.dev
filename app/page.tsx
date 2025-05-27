@@ -38,16 +38,6 @@ export default function Home() {
                                     Github
                                 </a>
                             </div>
-                            <div>
-                                I sometimes write about anything that passes
-                                through my mind at{" "}
-                                <a
-                                    className="underline"
-                                    href="https://thoughts.dbian.dev"
-                                >
-                                    thoughts.dbian.dev
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
