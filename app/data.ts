@@ -11,14 +11,14 @@ export const workExperiences: WorkExperience[] = [
     {
         start: DateTime.fromObject({ month: 8, year: 2022 }),
         end: DateTime.fromObject({ month: 10, year: 2023 }),
-        workName: "Bit Mobility",
-        workplace: "Software Developer",
+        workplace: "Bit Mobility",
+        workName: "Software Developer",
     },
     {
         start: DateTime.fromObject({ month: 10, year: 2020 }),
         end: DateTime.fromObject({ month: 7, year: 2022 }),
-        workName: "Iotinga",
-        workplace: "Software Developer",
+        workplace: "Iotinga",
+        workName: "Software Developer",
     },
 ]
 
